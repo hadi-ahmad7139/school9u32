@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+header {
+    background-color: rgb(37, 37, 37);
+    padding: 10px 200px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 5px solid grey;
+}
+
+
+.logo {
+    color :rgb(0, 38, 255);
+    font-size: 1.8em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;    
+}
+
+
+.tools a {
+    color: rgb(0, 38, 255);
+    font-size: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.tools a:hover {
+    color: rgb(132, 0, 255);
+    cursor: pointer;
+}
+
+.tools .head-btn {
+    color: aliceblue;
+    background-color: rgb(0, 38, 255);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-left: 30px;
+    transition: 0.7s ease;
+}
+
+.tools .head-btn:hover {
+    background-color: rgb(71, 98, 255);
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+}
+
+
+section {
+    padding: 100px 200px;
+}
+
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(253, 254, 255);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.main h2 {
+    color: black;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+
+.main h3 {
+    font-size:1.1em ;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+
+.social a {
+    color: rgb(0, 0, 0);
+    font-size: 1.5em ;
+    padding-right: 30px;
+}
+
+
+ .services {
+  background-color: rgb(2, 2, 2);
+  padding: 100px ;
+  color: white;
+  border-top: 2px solid (gray);
+  letter-spacing: 1px;
+}
+
+.services .serv {
+    margin-top: 30px;
+}
+
+.about-us .abo {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+
